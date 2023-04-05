@@ -17,7 +17,7 @@ FPS = 60
 
 
 
-TILEMAP = [
+'''TILEMAP = [
     'BBBBBBBBBBBBBBBBBB',
     'B                B',
     'B                B',
@@ -36,5 +36,4 @@ TILEMAP = [
     'B    G           B',
     'B P G            B',
     'BBBBBBBBBBBBBBBBBB',
-
-]
+]'''
