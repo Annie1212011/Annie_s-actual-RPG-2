@@ -15,25 +15,40 @@ Black = 0, 0, 0
 
 FPS = 60
 
+def TILEMAP_Create():
+    TILEMAP = []
 
- 
+    Width = 7
+    Hight = 10
+
+    TILEMAP.append('B' * Width)
+    for i in range(Hight - 2):
+        TILEMAP.append('B' + ' ' * (Width-2) + 'B')
+    TILEMAP.append('B' * Width)
+    return TILEMAP
+
+
+
+TILEMAP = TILEMAP_Create()
+
+  
 '''TILEMAP = [
-    'BBBBBBBBBBBBBBBBBB',
-    'B                B',
-    'B                B',
-    'B                B',
-    'B               GB',
-    'B              G B',
-    'B             G  B',
-    'B            G   B',
-    'B           G    B',
-    'B          G     B',
-    'B         G      B',
-    'B        G       B',
-    'B       G        B',
-    'B      G         B',
-    'B     G          B',
-    'B    G           B',
-    'B P G            B',
-    'BBBBBBBBBBBBBBBBBB',
+'BBBBBBBBBBBBBBBBBB',
+'B                B',
+'B                B',
+'B                B',
+'B               GB',
+'B              G B',
+'B             G  B',
+'B            G   B',
+'B           G    B',
+'B          G     B',
+'B         G      B',
+'B        G       B',
+'B       G        B',
+'B      G         B',
+'B     G          B',
+'B    G           B',
+'B P G            B',
+'BBBBBBBBBBBBBBBBBB',
 ]'''
