@@ -4,7 +4,7 @@ WINDOW_HIGHT = 575
 PLAYER_LAYER = 1
 BLOCK_LAYER = 2
 
-TILESIZE = 32
+TILESIZE = 23
 
 PLAYER_SPEED = 3
 
@@ -18,8 +18,8 @@ FPS = 60
 def TILEMAP_Create():
     TILEMAP = []
 
-    Width = 7
-    Hight = 10
+    Width = 25
+    Hight = 25
 
     TILEMAP.append('B' * Width)
     for i in range(Hight - 2):
